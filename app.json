@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "GitHub Explorer",
+    "slug": "react-native-github-explorer",
+    "scheme": "githubexplorer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.towhid.githubexplorer"
+    },
+    "android": {
+      "package": "dev.towhid.githubexplorer",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-asset", "expo-font"]
+  }
+}
